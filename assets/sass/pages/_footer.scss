@@ -1,0 +1,129 @@
+.footer{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: center;
+
+    .card_imgs {
+        gap: 5px;
+        display: flex;
+        background: none;
+      }
+      .card_img {
+        display: flex;
+        padding: 14px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 8px;
+        border: 1px solid var(--white-95, #f1f1f3);
+        background: var(--white-97, #f7f7f8);
+        gap: 5px;
+      }
+    .img_link{
+        margin-bottom: 20px;
+        background: none;
+    }
+    .imgg_footer_list{
+    margin-right: 4px;
+    background: none;
+    }
+    .footer_link_th{
+    display: flex;
+    color: var(--primary-black, #292929);
+    font-family: Circe Rounded;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    margin-top:16px;
+    background: none;
+    }
+    .footer_link {
+        color: var(--primary-black, #292929);
+        font-family: Circe Rounded;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: none;
+    }
+    .footer_item_two{
+        display: flex;
+        margin-bottom: 10px;
+        background: none;
+        
+    }
+    .footer_link_top{
+        color: var(--primary-black, #292929);
+        font-family: Circe Rounded;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; 
+        width: 178px;
+        margin-top: 20px;
+        background: none;
+    }
+    .footer_item_three{
+        margin-top: 10px;
+        background: none;
+    }
+    .footer_item_end{
+        margin-top:20px;
+        background: none;
+    }
+    .img_footer_list{
+        margin-top: 10px;
+        padding-right: 14px;
+        background: none;
+
+    }
+    .footer_link_three{
+        color: var(--primary-black, #292929);
+        font-family: Circe Rounded;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; 
+        width: 178px;
+        margin-top: 20px;
+        background: none;
+    }
+    .footer_link_two{
+        color: var(--primary-dark-grey, #808080);
+        font-family: Circe Rounded;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        background: none;
+    }
+    .footer_link_t{
+        color: var(--primary-black, #292929);
+        font-family: Circe Rounded;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        background: none;
+    }
+}
+.footer_list{
+    background: none;
+    padding-left: 70px;
+}
+.footer_item{
+    margin-top: 10px;
+    background: none;
+}
+.footer_link_big{
+    background: none;
+}
+.footer_item_one{
+    background: none;
+}

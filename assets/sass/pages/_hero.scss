@@ -1,0 +1,32 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 109px;
+  
+  .hero_right {
+    p {
+      color: var(--grey-35, #59595a);
+      font-family: Be Vietnam Pro;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      flex: 1 0 0;
+    }
+  }
+  .hero_left {
+    display: flex;
+    width: 1860px;
+    align-items: center;
+    margin-right: 90px;
+    h1 {
+      flex: 1 0 0;
+      color: var(--grey-15, #262626);
+      font-family: Be Vietnam Pro;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 150%;
+    }
+  }
+}

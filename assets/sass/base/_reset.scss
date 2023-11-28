@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background: var(--white-97, #F7F7F8);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container{
+  max-width: 1400px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.container_2{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+}
