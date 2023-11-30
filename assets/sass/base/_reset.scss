@@ -2,24 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Be Vietnam Pro', sans-serif;
-  background: var(--white-97, #F7F7F8);
+  font-family: Barlow;
+  background: var(--grey-10, #1a1a1a);
 }
 a {
-  text-decoration: none;
+  text-decoration: none;  
 }
 ul {
   list-style: none;
 }
-.container{
-  max-width: 1400px;
+.container {
+  max-width: 1920px;
   width: 100%;
-  padding: 0 16px;
+  padding: 0 auto;
   margin: 0 auto;
 }
-.container_2{
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 auto;
-    margin: 0 auto;
+.container_2 {
+  max-width: 1596px;
+  width: 100%;
+  padding: 0 auto;
+  margin: 0 auto;
 }

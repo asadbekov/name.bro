@@ -1,78 +1,128 @@
 .header {
-  margin-top: 15px;
-  &_top {
-    border-radius: 8px;
-    background: var(--orange-50, #ff9500);
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+
+  .header_left {
+    fill: var(--absolute-white, #fff);
     display: flex;
-    padding: 14px 0px;
-    justify-content: center;
-    align-items: center;
-    gap: 23px;
-    align-self: stretch;
 
-    p {
-      color: var(--absolute-white, #fff);
-      font-family: Be Vietnam Pro;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 150%;
-      background: none;
-
-      .s_span {
-        background: none;
-      }
-      .img_top {
-        background: none;
-        margin-left: 23px;
-      }
+    .img_up {
+      margin: auto;
     }
   }
-  .header_bottom {
-    padding-top: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: baseline;
-  }
-  .header_navigation {
-    ul {
-      display: flex;
-      gap: 26px;
-      a {
-        color: var(--grey-15, #262626);
-        font-family: Be Vietnam Pro;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
-      }
-    }
-  }
-  .header_btns {
-    display: flex;
-    margin-left: 450px;
+
+  .header_center {
     gap: 30px;
+    display: flex;
+    align-items: center;
+    transition: all ease 0.6s;
+
     .btn {
-      color: var(--grey-15, #262626);
-      font-family: Be Vietnam Pro;
+      color: var(--grey-90, #e6e6e6);
+      font-family: Barlow;
       font-size: 18px;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 500;
       line-height: 150%;
       border: none;
+      transition: all ease 0.6s;
     }
-    .active {
+
+    .btn:hover {
+      display: flex;
+      padding: 14px 24px;
+      align-items: flex-start;
       border-radius: 8px;
-      background: var(--orange-50, #ff9500);
-      padding: 14px 34px;
-      gap: 8px;
+      background: var(--grey-15, #262626);
+      transition: all ease 0.6s;
+    }
+  }
+
+  .header_right {
+    .btn_active {
+      color: var(--grey-15, #262626);
+      font-family: Barlow;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      border-radius: 8px;
+      background: var(--green-50, #9eff00);
+      display: flex;
+      padding: 16px 24px;
+      align-items: center;
+    }
+  }
+
+  .our_service {
+    .img_bottom {
+      border: 1px solid var(--grey-15, #262626);
+      background: linear-gradient(0deg,
+          rgba(172, 255, 36, 0.2) 0%,
+          rgba(172, 255, 36, 0.2) 100%),
+        url(<path-to-image>), lightgray 0% 0% / 100px 100px repeat,
+        url(<path-to-image>), lightgray 50% / cover no-repeat;
+      background-blend-mode: color, normal, overlay;
+    }
+  }
+}
+
+.design {
+  display: flex;
+  width: 1596px;
+  padding-top: 100px;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid var(--grey-15, #262626);
+
+  .design_inside {
+    display: flex;
+    padding: 0px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    align-self: stretch;
+
+    h1 {
+      align-self: stretch;
       color: var(--absolute-white, #fff);
-      font-family: Be Vietnam Pro;
+      font-family: Barlow;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+
+    p {
+      align-self: stretch;
+      color: var(--grey-90, #e6e6e6);
+      font-family: Barlow;
       font-size: 18px;
       font-style: normal;
       font-weight: 400;
       line-height: 150%;
+      letter-spacing: -0.108px;
+    }
+
+    .btn_our {
+      color: var(--absolute-white, #fff);
+      font-family: Barlow;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      display: flex;
+      padding: 12px 14px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 8px;
+      background: var(--grey-15, #262626);
+      border: none;
+      margin-bottom: 50px;
     }
   }
-
 }
